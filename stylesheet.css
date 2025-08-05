@@ -8,7 +8,6 @@
 body {
     color: #ededed;
     background: #081b29;
-
 }
 .header {
     position: fixed;
@@ -40,11 +39,8 @@ body {
     margin-left: 120px;
     transition: .3s;
     animation: slideTop .5s ease forwards;
-    animation-delay: calc(.2s * var(--1));
-    
+    animation-delay: calc(.2s * var(--1)); 
 }
-
-
 .navbar a:hover {
     color: #0ef;
 
@@ -788,3 +784,4 @@ section {
 
     }
 }
+
